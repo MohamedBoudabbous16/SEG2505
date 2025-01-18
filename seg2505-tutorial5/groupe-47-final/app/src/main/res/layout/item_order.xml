@@ -1,0 +1,96 @@
+<!-- res/layout/item_order.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/item_background"
+    android:elevation="6dp"
+    android:padding="16dp"
+    android:layout_margin="10dp"
+    android:gravity="center_vertical">
+
+    <!-- Header contenant l'ID de commande et l'icône -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_receipt_24"
+            android:layout_marginEnd="8dp"
+            app:tint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/orderIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order ID: #12345"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- Status de la commande avec une icône -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_pending_24"
+            android:layout_marginEnd="8dp"
+            app:tint="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/orderStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Pending"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <!-- Message associé à la commande -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_message_24"
+            android:layout_marginEnd="8dp"
+            app:tint="@color/gray_dark" />
+
+        <TextView
+            android:id="@+id/orderMessageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message: No issues"
+            android:textSize="14sp"
+            android:textColor="@color/gray_dark" />
+    </LinearLayout>
+
+    <!-- Section pour la date de création de la commande -->
+    <TextView
+        android:id="@+id/orderDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Created: 2023-10-15"
+        android:textSize="12sp"
+        android:textColor="@color/gray_light" />
+
+</LinearLayout>
