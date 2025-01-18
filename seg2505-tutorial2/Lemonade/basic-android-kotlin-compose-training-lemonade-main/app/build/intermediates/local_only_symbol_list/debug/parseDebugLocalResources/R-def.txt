@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+dimen button_corner_radius
+dimen button_image_height
+dimen button_image_width
+dimen button_interior_padding
+dimen padding_vertical
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable lemon_drink
+drawable lemon_restart
+drawable lemon_squeeze
+drawable lemon_tree
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string empty_glass_content_description
+string lemon_content_description
+string lemon_drink
+string lemon_empty_glass
+string lemon_select
+string lemon_squeeze
+string lemon_tree_content_description
+string lemonade_content_description
+style Theme.Lemonade
