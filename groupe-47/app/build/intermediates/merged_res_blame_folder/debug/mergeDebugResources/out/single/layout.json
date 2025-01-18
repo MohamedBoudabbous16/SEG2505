@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.pcorderapplication.app-mergeDebugResources-59:/layout/activity_main.xml",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-mergeDebugResources-59:/layout/activity_assembler.xml",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_assembler.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-mergeDebugResources-59:/layout/activity_administrator.xml",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_administrator.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-mergeDebugResources-59:/layout/activity_register.xml",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-mergeDebugResources-59:/layout/activity_requester.xml",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_requester.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-mergeDebugResources-59:/layout/item_order.xml",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/item_order.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-mergeDebugResources-59:/layout/activity_storekeeper.xml",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_storekeeper.xml"
+    }
+]

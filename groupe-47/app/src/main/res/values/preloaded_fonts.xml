@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aboreto</item>
+        <item>@font/albert_sans_thin</item>
+        <item>@font/alegreya_sc_medium</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/castoro_titling</item>
+    </array>
+</resources>

@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_ic_person.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_login_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_login_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_pending_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_pending_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_playlist_add_check_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_playlist_add_check_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_add_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_add_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_button_shape.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/button_shape.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/layout_activity_requester.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_requester.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_add_circle_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_add_circle_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/layout_activity_register.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/layout_activity_main.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_delete_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_delete_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_keyboard_arrow_left_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_keyboard_arrow_left_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_analytics_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_analytics_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_button_shape2.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/button_shape2.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_item_background.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/item_background.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_ic_back_arrow.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/ic_back_arrow.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/font_aboreto.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/font/aboreto.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_filter_alt_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_filter_alt_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_check_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_check_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/font_castoro_titling.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/font/castoro_titling.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_uottawa_logo.png.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/uottawa_logo.png"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_edit_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_edit_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_cancel_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_cancel_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_ic_lock.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/font_black_ops_one.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/font/black_ops_one.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/layout_item_order.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/item_order.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/xml_backup_rules.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_search_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_search_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/layout_activity_storekeeper.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_storekeeper.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_list_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_list_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/layout_activity_assembler.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_assembler.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_receipt_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_receipt_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/font_albert_sans_thin.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/font/albert_sans_thin.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_message_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_message_24.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/font_alegreya_sc_medium.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/font/alegreya_sc_medium.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_ic_email.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/layout_activity_administrator.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/layout/activity_administrator.xml"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.pcorderapplication.app-debug-60:/drawable_baseline_person_add_24.xml.flat",
+        "source": "com.example.pcorderapplication.app-main-62:/drawable/baseline_person_add_24.xml"
+    }
+]

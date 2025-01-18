@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.pcorderapplication.AssemblerControllerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-12-04T22:29:45" hostname="Mac" time="0.071">
+  <properties/>
+  <testcase name="testFindOrderById_Failure" classname="com.example.pcorderapplication.AssemblerControllerTest" time="0.047"/>
+  <testcase name="testAddOrder_Success" classname="com.example.pcorderapplication.AssemblerControllerTest" time="0.004"/>
+  <testcase name="testAcceptOrder" classname="com.example.pcorderapplication.AssemblerControllerTest" time="0.003"/>
+  <testcase name="testAddOrder_Failure_OrderExists" classname="com.example.pcorderapplication.AssemblerControllerTest" time="0.004"/>
+  <testcase name="testRejectOrder" classname="com.example.pcorderapplication.AssemblerControllerTest" time="0.003"/>
+  <testcase name="testViewAllOrders" classname="com.example.pcorderapplication.AssemblerControllerTest" time="0.002"/>
+  <testcase name="testRejectOrder_NullOrder" classname="com.example.pcorderapplication.AssemblerControllerTest" time="0.002"/>
+  <testcase name="testFindOrderById_Success" classname="com.example.pcorderapplication.AssemblerControllerTest" time="0.003"/>
+  <testcase name="testCompleteOrder" classname="com.example.pcorderapplication.AssemblerControllerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

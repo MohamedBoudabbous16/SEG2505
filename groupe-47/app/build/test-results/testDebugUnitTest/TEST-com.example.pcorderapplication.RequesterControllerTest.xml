@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.pcorderapplication.RequesterControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-12-04T22:29:45" hostname="Mac" time="1.651">
+  <properties/>
+  <testcase name="testDeleteOrder" classname="com.example.pcorderapplication.RequesterControllerTest" time="1.63"/>
+  <testcase name="testValidateComponents_Success" classname="com.example.pcorderapplication.RequesterControllerTest" time="0.006"/>
+  <testcase name="testValidateComponents_Failure" classname="com.example.pcorderapplication.RequesterControllerTest" time="0.004"/>
+  <testcase name="testCreateOrder_Success" classname="com.example.pcorderapplication.RequesterControllerTest" time="0.004"/>
+  <testcase name="testViewOwnOrders" classname="com.example.pcorderapplication.RequesterControllerTest" time="0.003"/>
+  <testcase name="testCreateOrder_Failure_NoComponentsAvailable" classname="com.example.pcorderapplication.RequesterControllerTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

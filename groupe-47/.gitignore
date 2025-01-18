@@ -1,0 +1,10 @@
+# Ignorer les clés SSH
+ssh-keygen*
+*.key
+*.pem
+
+# Ignorer d'autres fichiers sensibles ou inutiles
+.env
+*.log
+node_modules/
+
