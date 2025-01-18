@@ -1,0 +1,194 @@
+12-01 08:54:23.643  5802  5837 I TestRunner: started: testComponentsDisplayedWithQuantity100(com.example.pcorderapplication.StoreKeeperActivityTest)
+12-01 08:54:23.650  5802  5837 I DatabaseSQLite: Tables created successfully.
+12-01 08:54:23.652  5802  5837 I StoreKeeperController: 0 components deleted successfully.
+12-01 08:54:23.656  5802  5837 W SQLiteLog: (28) double-quoted string literal: "Intel i7"
+12-01 08:54:23.658  5802  5837 I database: Component inserted successfully.
+12-01 08:54:23.659  5802  5837 W SQLiteLog: (28) double-quoted string literal: "AMD Ryzen 5"
+12-01 08:54:23.661  5802  5837 I database: Component inserted successfully.
+12-01 08:54:23.661  5802  5837 W SQLiteLog: (28) double-quoted string literal: "NVIDIA GTX 1080"
+12-01 08:54:23.663  5802  5837 I database: Component inserted successfully.
+12-01 08:54:23.663  5802  5837 W SQLiteLog: (28) double-quoted string literal: "Samsung SSD 1TB"
+12-01 08:54:23.665  5802  5837 I database: Component inserted successfully.
+12-01 08:54:23.666  5802  5837 W SQLiteLog: (28) double-quoted string literal: "Corsair 16GB RAM"
+12-01 08:54:23.667  5802  5837 I database: Component inserted successfully.
+12-01 08:54:23.668  5802  5837 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+12-01 08:54:23.670   526  2187 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@4be41133 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+12-01 08:54:23.677  1021  1021 W SplitSelectStateCtor: Missing session instanceIds
+12-01 08:54:23.677  1021  1021 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+12-01 08:54:23.679  1021  1021 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=328, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.pcorderapplication/.view.StoreKeeperActivity }
+12-01 08:54:23.689   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+12-01 08:54:23.700  5802  5802 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+12-01 08:54:23.713  5802  5802 D LifecycleMonitor: Lifecycle status change: com.example.pcorderapplication.view.StoreKeeperActivity@750b78 in: PRE_ON_CREATE
+12-01 08:54:23.713  5802  5802 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+12-01 08:54:23.721  1379  2123 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-01 08:54:23.726  1021  1466 D EGL_emulation: app_time_stats: avg=43.76ms min=8.88ms max=648.29ms count=23
+12-01 08:54:23.738  1379  2123 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-01 08:54:23.752  1379  2123 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-01 08:54:23.761  1021  1466 D EGL_emulation: app_time_stats: avg=3109.19ms min=12.38ms max=55584.59ms count=18
+12-01 08:54:23.763  1379  2123 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-01 08:54:23.765   750   864 D EGL_emulation: app_time_stats: avg=13146.56ms min=13146.56ms max=13146.56ms count=1
+12-01 08:54:23.780  5802  5839 E rderapplication: No package ID 77 found for resource ID 0x770b000f.
+12-01 08:54:23.780  5802  5839 E rderapplication: No package ID 77 found for resource ID 0x770b000f.
+12-01 08:54:23.783  1379  2123 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-01 08:54:23.815  5802  5839 I FA      : App measurement initialized, version: 108021
+12-01 08:54:23.817  5802  5839 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+12-01 08:54:23.818  5802  5839 I FA      : To enable faster debug mode event logging run:
+12-01 08:54:23.818  5802  5839 I FA      :   adb shell setprop debug.firebase.analytics.app com.example.pcorderapplication
+12-01 08:54:23.830  5802  5802 W rderapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+12-01 08:54:23.832  5802  5802 W SQLiteLog: (28) double-quoted string literal: "Intel i7"
+12-01 08:54:23.832  5802  5802 I database: This title exists in the Component table
+12-01 08:54:23.833  5802  5802 W SQLiteLog: (28) double-quoted string literal: "AMD Ryzen 5"
+12-01 08:54:23.833  5802  5802 I database: This title exists in the Component table
+12-01 08:54:23.833  5802  5802 W SQLiteLog: (28) double-quoted string literal: "NVIDIA GTX 1080"
+12-01 08:54:23.833  5802  5802 I database: This title exists in the Component table
+12-01 08:54:23.834  5802  5802 W SQLiteLog: (28) double-quoted string literal: "Samsung SSD 1TB"
+12-01 08:54:23.834  5802  5802 I database: This title exists in the Component table
+12-01 08:54:23.835  5802  5802 W SQLiteLog: (28) double-quoted string literal: "Corsair 16GB RAM"
+12-01 08:54:23.835  5802  5802 I database: This title exists in the Component table
+12-01 08:54:23.836  5802  5802 I StoreManagement: Welcome, StoreKeeper! You can manage the component stock here.
+12-01 08:54:23.837  5802  5802 D LifecycleMonitor: Lifecycle status change: com.example.pcorderapplication.view.StoreKeeperActivity@750b78 in: CREATED
+12-01 08:54:23.837  5802  5802 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.pcorderapplication.view.StoreKeeperActivity@750b78
+12-01 08:54:23.838  5802  5802 D LifecycleMonitor: Lifecycle status change: com.example.pcorderapplication.view.StoreKeeperActivity@750b78 in: STARTED
+12-01 08:54:23.838  5802  5802 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.pcorderapplication.view.StoreKeeperActivity@750b78
+12-01 08:54:23.839  5802  5802 D LifecycleMonitor: Lifecycle status change: com.example.pcorderapplication.view.StoreKeeperActivity@750b78 in: RESUMED
+12-01 08:54:23.839  5802  5802 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.pcorderapplication.view.StoreKeeperActivity@750b78
+12-01 08:54:23.849  5802  5802 W HWUI    : Unknown dataspace 0
+12-01 08:54:23.882   381   486 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10350 pid=0
+12-01 08:54:23.882   381   486 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10350 => denied (40 us)
+12-01 08:54:23.882   381   486 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10350 pid=0
+12-01 08:54:23.882   381   486 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10350 => denied (199 us)
+12-01 08:54:23.882   381   486 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10350 pid=0
+12-01 08:54:23.882   381   486 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10350 => denied (169 us)
+12-01 08:54:23.883  5802  5841 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+12-01 08:54:23.883  5802  5841 I EGL_emulation: Opening libGLESv2_emulation.so
+12-01 08:54:23.895  5802  5841 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-01 08:54:23.897  5802  5841 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+12-01 08:54:23.901   125   125 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+12-01 08:54:23.901  5802  5841 I Gralloc4: mapper 4.x is not supported
+12-01 08:54:23.922   526  1151 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10350 pid=0
+12-01 08:54:23.922   526  1151 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10350 => denied (51 us)
+12-01 08:54:23.922   526  1151 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10350 pid=0
+12-01 08:54:23.922   526  1151 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10350 => denied (7 us)
+12-01 08:54:23.922   526  1151 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10350 pid=0
+12-01 08:54:23.922   526  1151 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10350 => denied (3 us)
+12-01 08:54:23.928   526   546 W ziparchive: Unable to open '/data/app/~~WodE4gQkDWGej9MBdeGHZA==/com.example.pcorderapplication-uH7BdRKmFZ8st1bB3oB-tQ==/base.dm': No such file or directory
+12-01 08:54:23.928   526   546 I ActivityTaskManager: Displayed com.example.pcorderapplication/.view.StoreKeeperActivity for user 0: +258ms
+12-01 08:54:23.960   526   627 I ImeTracker: com.example.pcorderapplication:a1704c42: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+12-01 08:54:23.960   526   627 I ImeTracker: com.example.pcorderapplication:a1704c42: onCancelled at PHASE_SERVER_SHOULD_HIDE
+12-01 08:54:23.962  1295  1295 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157
+12-01 08:54:23.963  1295  1295 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+12-01 08:54:23.963  1295  1295 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.example.pcorderapplication, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+12-01 08:54:23.963  1295  1295 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+12-01 08:54:23.964  1295  1295 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+12-01 08:54:23.977  1347  1347 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+12-01 08:54:23.977  1347  1347 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+12-01 08:54:23.995  5802  5839 I FA      : Tag Manager is not found and thus will not be used
+12-01 08:54:24.010  1021  1021 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+12-01 08:54:24.013  5802  5857 D TrafficStats: tagSocket(141) with statsTag=0x8001, statsUid=-1
+12-01 08:54:24.020  1347  5863 D AdvertisingIdClient: AdvertisingIdClient already created.
+12-01 08:54:24.020  1347  5863 D AdvertisingIdClient: AdvertisingIdClient is not bounded. Starting to bind it...
+12-01 08:54:24.022  1347  5863 D AdvertisingIdClient: AdvertisingIdClient is bounded
+12-01 08:54:24.024  1021  1021 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+12-01 08:54:24.024  1347  5863 I AdvertisingIdClient: shouldSendLog 69730051
+12-01 08:54:24.029  1021  1021 D BaseDepthController: setSurface:
+12-01 08:54:24.029  1021  1021 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+12-01 08:54:24.029  1021  1021 D BaseDepthController: 	mSurface: null
+12-01 08:54:24.029  1021  1021 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+12-01 08:54:24.030  1021  1021 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+12-01 08:54:24.030  1021  1021 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:4)
+12-01 08:54:24.030  1021  1021 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:1)
+12-01 08:54:24.030  1021  1021 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:34)
+12-01 08:54:24.030  1021  1021 D StatsLog: LAUNCHER_ONSTOP
+12-01 08:54:24.031  1347  5863 I AdvertisingIdClient: GetInfoInternal elapse 5ms
+12-01 08:54:24.031  1021  2368 D GmsPlayProvider: Shut down the binder channel
+12-01 08:54:24.031  1021  1021 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+12-01 08:54:24.031  1021  1532 D OneSearchSuggestProvider: Shut down the binder channel
+12-01 08:54:24.033  1021  4422 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007aa38e1820 will be dropped but finished with status UNKNOWN_TRANSACTION
+12-01 08:54:24.033 27572 27583 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007aa38bf950 will be dropped but finished with status UNKNOWN_TRANSACTION
+12-01 08:54:24.049   976  5231 W NetworkScheduler: Error inserting flex_time=0 job_id=-1 period=2000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=244462000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1733061264048 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0 [CONTEXT service_id=218 ]
+12-01 08:54:24.049   976  5231 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:974)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:814)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1981)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1875)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at dijn.d(:com.google.android.gms@244462035@24.44.62 (260400-694710762):727)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at dihf.n(:com.google.android.gms@244462035@24.44.62 (260400-694710762):29)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at dihf.u(:com.google.android.gms@244462035@24.44.62 (260400-694710762):360)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at dihf.h(:com.google.android.gms@244462035@24.44.62 (260400-694710762):51)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at dibz.run(:com.google.android.gms@244462035@24.44.62 (260400-694710762):72)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at anqt.c(:com.google.android.gms@244462035@24.44.62 (260400-694710762):50)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at anqt.run(:com.google.android.gms@244462035@24.44.62 (260400-694710762):76)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at anwd.run(:com.google.android.gms@244462035@24.44.62 (260400-694710762):8)
+12-01 08:54:24.049   976  5231 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:1012)
+12-01 08:54:24.051  3352  4236 I Finsky  : [131] apes.v(234): Package com.google.android.gms is verified.
+12-01 08:54:24.052  1347  5863 W FA-SVC  : Service response is missing Install Referrer install timestamp
+12-01 08:54:24.053  3352  3352 I Finsky  : [2] xvv.onTrimMemory(11): Memory trim requested to level 40
+12-01 08:54:24.053  3352  3352 I Finsky  : [2] aceq.accept(139): Flushing in-memory image cache
+12-01 08:54:24.068   976  5829 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=244462000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1733061264067 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0 [CONTEXT service_id=218 ]
+12-01 08:54:24.068   976  5829 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:974)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:814)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1981)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1875)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at dijn.d(:com.google.android.gms@244462035@24.44.62 (260400-694710762):727)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at dihf.n(:com.google.android.gms@244462035@24.44.62 (260400-694710762):29)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at dihf.u(:com.google.android.gms@244462035@24.44.62 (260400-694710762):360)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at dihf.h(:com.google.android.gms@244462035@24.44.62 (260400-694710762):51)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at dibz.run(:com.google.android.gms@244462035@24.44.62 (260400-694710762):72)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at anqt.c(:com.google.android.gms@244462035@24.44.62 (260400-694710762):50)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at anqt.run(:com.google.android.gms@244462035@24.44.62 (260400-694710762):76)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at anwd.run(:com.google.android.gms@244462035@24.44.62 (260400-694710762):8)
+12-01 08:54:24.068   976  5829 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:1012)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: Error inserting flex_time=9000 job_id=-1 period=20000 source=16 requires_charging=0 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService user_id=0 target_package=com.google.android.gms tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG task_type=0 required_idleness_state=0 service_kind=0 source_version=244462000 persistence_level=1 preferred_charging_state=1 required_network_type=0 runtime=1733061264072 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} last_runtime=0 [CONTEXT service_id=218 ]
+12-01 08:54:24.076   976  5829 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:974)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:814)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1981)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1875)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at dijn.d(:com.google.android.gms@244462035@24.44.62 (260400-694710762):727)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at dihf.n(:com.google.android.gms@244462035@24.44.62 (260400-694710762):29)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at dihf.u(:com.google.android.gms@244462035@24.44.62 (260400-694710762):360)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at dihf.h(:com.google.android.gms@244462035@24.44.62 (260400-694710762):51)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at dibz.run(:com.google.android.gms@244462035@24.44.62 (260400-694710762):72)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at anqt.c(:com.google.android.gms@244462035@24.44.62 (260400-694710762):50)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at anqt.run(:com.google.android.gms@244462035@24.44.62 (260400-694710762):76)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at anwd.run(:com.google.android.gms@244462035@24.44.62 (260400-694710762):8)
+12-01 08:54:24.076   976  5829 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:1012)
+12-01 08:54:24.210   750   845 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6a5f041
+12-01 08:54:24.210   526   543 W InputManager-JNI: Input channel object '352e7e2 Splash Screen com.example.pcorderapplication (client)' was disposed without first being removed with the input manager!
+12-01 08:54:24.306  5802  5806 I rderapplication: Compiler allocated 4206KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+12-01 08:54:24.346   976  1434 I FontLog : (REDACTED) Received query %s, URI %s
+12-01 08:54:24.346   976  1434 I FontLog : (REDACTED) Query [%s] resolved to %s
+12-01 08:54:24.347   976  1434 I FontLog : (REDACTED) Fetch %s end status %s
+12-01 08:54:24.348   976  1434 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+12-01 08:54:24.350   976  1434 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+12-01 08:54:24.466  5802  5806 I rderapplication: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+12-01 08:54:25.482  5802  5841 D EGL_emulation: app_time_stats: avg=520.01ms min=11.11ms max=1500.07ms count=3
+12-01 08:54:26.034  5802  5837 W FileTestStorage: Output properties is not supported.
+12-01 08:54:26.034  5802  5837 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+12-01 08:54:26.041  5802  5837 D CompatChangeReporter: Compat change id reported: 247079863; UID 10350; state: ENABLED
+12-01 08:54:26.043  5802  5837 D EventInjectionStrategy: Creating injection strategy with input manager.
+12-01 08:54:26.043  5802  5837 W rderapplication: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+12-01 08:54:26.043  5802  5837 W rderapplication: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+12-01 08:54:26.044  5802  5837 W rderapplication: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+12-01 08:54:26.048  5802  5802 W rderapplication: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+12-01 08:54:26.048  5802  5802 W rderapplication: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+12-01 08:54:26.048  5802  5802 W rderapplication: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+12-01 08:54:26.050  5802  5802 W rderapplication: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+12-01 08:54:26.052  5802  5802 W rderapplication: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+12-01 08:54:26.052  5802  5802 W rderapplication: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+12-01 08:54:26.054  5802  5802 I ViewInteraction: Performing 'load adapter data' action on view view.getId() is <2131362091/com.example.pcorderapplication:id/listViewComponents>
+12-01 08:54:26.062  5802  5802 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Intel i7 (Hardware, Component) - 100"}' assertion on view  displaying data matching: ANYTHING within adapter view matching: view.getId() is <2131362091/com.example.pcorderapplication:id/listViewComponents>
+12-01 08:54:26.063  5802  5837 I TestRunner: finished: testComponentsDisplayedWithQuantity100(com.example.pcorderapplication.StoreKeeperActivityTest)

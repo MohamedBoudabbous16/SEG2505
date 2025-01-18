@@ -1,0 +1,6 @@
+com.example.pcorderapplication.test.app-annotation-experimental-1.4.1-0 /Users/bouda/.gradle/caches/8.9/transforms/22ef90495020396bfd413da2010af806/transformed/annotation-experimental-1.4.1/res
+com.example.pcorderapplication.test.app-core-1.5.0-1 /Users/bouda/.gradle/caches/8.9/transforms/921313b79e4f4209d0336395ee022b92/transformed/core-1.5.0/res
+com.example.pcorderapplication.test.app-androidTest-2 /Users/bouda/Desktop/groupe-47-final/app/build/generated/res/resValues/androidTest/debug
+com.example.pcorderapplication.test.app-mergeDebugAndroidTestResources-3 /Users/bouda/Desktop/groupe-47-final/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.pcorderapplication.test.app-mergeDebugAndroidTestResources-4 /Users/bouda/Desktop/groupe-47-final/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.pcorderapplication.test.app-debugAndroidTest-5 /Users/bouda/Desktop/groupe-47-final/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
