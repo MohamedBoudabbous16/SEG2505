@@ -1,0 +1,15 @@
+@startuml 
+[*] --> Draft : Create Project
+
+Draft --> Recruiting : Publish Project
+Recruiting --> InProgress : Proposal Accepted
+InProgress --> UnderRevision : Submission Rejected
+InProgress --> Completed : All Contributions Approved
+InProgress --> Suspended : External Issue
+InProgress --> Cancelled : Client Decision
+UnderRevision --> Completed : Changes Approved
+Suspended --> InProgress : Resume Project
+Cancelled --> [*]
+Completed --> Archived : Archive Project
+Archived --> [*]
+@enduml

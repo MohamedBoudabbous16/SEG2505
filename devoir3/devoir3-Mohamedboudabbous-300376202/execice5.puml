@@ -1,0 +1,31 @@
+@startuml
+
+actor Client
+actor Freelancer
+participant ProjectService
+participant ProposalService
+participant Project
+participant Proposal
+
+Client -> ProjectService : createProject(title, description, budget)
+ProjectService -> Project : <<create>> Project(title, description, budget)
+ProjectService --> Client : return Project
+
+Client -> ProjectService : publishProject(projectId)
+ProjectService --> Project : updateStatus("Published")
+
+Freelancer -> ProjectService : browseProjects()
+ProjectService --> Freelancer : return ProjectList
+
+Freelancer -> ProposalService : submitProposal(projectId, details)
+ProposalService -> Proposal : <<create>> Proposal(details, projectId)
+ProposalService --> Freelancer : return Proposal
+
+Client -> ProposalService : reviewProposal(proposalId)
+ProposalService --> Proposal : getDetails()
+
+Client -> ProposalService : acceptProposal(proposalId)
+ProposalService --> Proposal : updateStatus("Accepted")
+
+destroy Proposal
+@enduml

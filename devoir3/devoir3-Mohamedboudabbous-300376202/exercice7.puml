@@ -1,0 +1,34 @@
+@startuml
+
+top to bottom direction
+
+node "Client Device" {
+    artifact "Web Browser"
+    artifact "Mobile App"
+}
+
+node "Load Balancer" 
+
+node "Application Server" {
+    component "NotificationManager"
+    component "ChatRoom"
+    component "ProjectService"
+    component "ProposalService"
+}
+
+node "Database Server" {
+    database "User Database"
+    database "Project Database"
+    database "Chat History"
+}
+
+"Web Browser" --> "Load Balancer" : HTTP(S) Request
+"Mobile App" --> "Load Balancer" : API Request
+"Load Balancer" --> "Application Server" : Forward Request
+"Application Server" --> "User Database" : User Data
+"Application Server" --> "Project Database" : Project Data
+"Application Server" --> "Chat History" : Message Data
+"Application Server" --> "Web Browser" : Response
+"Application Server" --> "Mobile App" : Response
+
+@enduml

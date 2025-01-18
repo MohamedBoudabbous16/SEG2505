@@ -1,0 +1,41 @@
+@startuml
+top to bottom direction
+
+actor Client
+actor Freelance
+
+usecase "Sign Up" as UC1
+usecase "Log In" as UC2
+usecase "Create and Manage a Profile" as UC3
+usecase "Create a Project" as UC4
+usecase "Publish a Project" as UC5
+usecase "Browse Projects" as UC6
+usecase "Submit a Proposal" as UC7
+usecase "Manage Proposals" as UC8
+usecase "Establish a Contract" as UC9
+usecase "Submit a Contribution" as UC10
+usecase "Approve or Reject a Contribution" as UC11
+usecase "Communicate via Chat" as UC12
+usecase "Evaluate a Freelancer" as UC13
+usecase "Archive a Project" as UC14
+
+Client --> UC1
+Client --> UC2
+Client --> UC4
+Client --> UC5
+Client --> UC8
+Client --> UC9
+Client --> UC11
+Client --> UC12
+Client --> UC13
+Client --> UC14
+
+Freelance --> UC1
+Freelance --> UC2
+Freelance --> UC3
+Freelance --> UC6
+Freelance --> UC7
+Freelance --> UC10
+Freelance --> UC12
+
+@enduml

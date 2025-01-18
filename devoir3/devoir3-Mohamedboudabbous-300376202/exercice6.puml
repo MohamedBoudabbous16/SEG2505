@@ -1,0 +1,122 @@
+@startuml
+top to bottom direction
+
+abstract class User {
+    - id: int
+    - name: String
+    - email: String
+    + login(): Boolean
+    + logout(): void
+}
+
+class Client {
+    + createProject(title: String, description: String, budget: float): Project
+    + publishProject(projectId: int): void
+    + reviewProposal(proposalId: int): void
+    + evaluateFreelancer(freelancerId: int, rating: float): void
+}
+
+class Freelancer {
+    - skills: List<String>
+    + browseProjects(): List<Project>
+    + submitProposal(projectId: int, details: String): Proposal
+    + submitContribution(projectId: int, artifact: String): Contribution
+    + updateSkills(skill: String): void
+}
+
+class Project {
+    - id: int
+    - title: String
+    - description: String
+    - budget: float
+    - status: String
+    - requiredSkills: List<String>
+    + addSkill(skill: String): void
+    + receiveProposal(proposal: Proposal): void
+    + acceptProposal(proposalId: int): void
+}
+
+class Proposal {
+    - id: int
+    - details: String
+    - status: String
+    + updateStatus(status: String): void
+}
+
+class Contribution {
+    - id: int
+    - artifact: String
+    - type: String
+    - version: String
+    + submit(): void
+}
+
+class Contract {
+    - startDate: Date
+    - endDate: Date
+    - mission: String
+}
+
+interface Observer {
+    + update(message: String): void
+}
+
+interface Subject {
+    + registerObserver(observer: Observer): void
+    + removeObserver(observer: Observer): void
+    + notifyObservers(message: String): void
+}
+
+class NotificationManager {
+    - observers: List<Observer>
+    + registerObserver(observer: Observer): void
+    + removeObserver(observer: Observer): void
+    + notifyObservers(message: String): void
+}
+
+interface ChatMediator {
+    + sendMessage(message: String, sender: User): void
+}
+
+class ChatRoom {
+    - users: List<User>
+    + sendMessage(message: String, sender: User): void
+    + addUser(user: User): void
+    + removeUser(user: User): void
+}
+
+User <|-- Client
+User <|-- Freelancer
+
+Client --|> Observer
+Freelancer --|> Observer
+
+NotificationManager ..|> Subject
+NotificationManager o--> Observer : observers
+
+note as N1
+Patron Observer
+end note
+
+NotificationManager .. N1
+Observer .. N1
+
+User --> ChatMediator : communique via
+ChatMediator <|-- ChatRoom
+
+note as N2
+Patron Mediator
+end note
+
+ChatMediator .. N2
+ChatRoom .. N2
+
+Client "1" o-- "*" Project : manager
+Project "1" --> "*" Proposal : receives
+Proposal "1" --> "1..*" Contribution : includes
+Freelancer "1" --> "*" Proposal : submitter
+Freelancer "1" --> "*" Contribution : contributor
+Project "1" --> "1" Contract : formalizedBy
+
+Project "1" *-- "1..*" Contribution : contains
+@enduml

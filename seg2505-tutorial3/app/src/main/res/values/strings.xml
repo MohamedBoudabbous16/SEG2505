@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PCOrderApplication</string>
+    <string name="uottawa_logo_description">University of Ottawa Logo</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_button_text">Login</string>
+
+    <string name="error_empty_fields">Please fill in both email and password fields</string>
+    <string name="error_invalid_credentials">Invalid email or password, please try again</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="administrator">Administrator</string>
+    <string name="storekeeper">Store Keeper</string>
+    <string name="assembler">Assembler</string>
+    <string name="requester">Requester</string>
+    <string name="viewing_all_requesters" />
+    <string name="first_name_hint">Enter your first Name</string>
+    <string name="last_name_hint">Enter your last Name</string>
+    <string name="create_requester">Create Requester</string>
+
+    <string name="login">Login</string>
+    <string name="not_registered">Not registered? Create an account</string>
+
+</resources>

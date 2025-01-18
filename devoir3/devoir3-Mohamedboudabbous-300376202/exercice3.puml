@@ -1,0 +1,94 @@
+@startuml
+' Pour ameliorer la visibilité du diagramme
+top to bottom direction 
+
+' Classe abstraite 
+abstract class User {
+    - id: int
+    - name: String
+    - email: String
+    + login(): Boolean
+    + logout(): void
+}
+
+' Sous-classes pour les rôles au sein du syteme
+class Client {
+    + createProject(title: String, description: String, budget: float): Project
+    + publishProject(projectId: int): void
+    + reviewProposal(proposalId: int): void
+    + evaluateFreelancer(freelancerId: int, rating: float): void
+}
+
+class Freelancer {
+    - skills: List<String>
+    + browseProjects(): List<Project>
+    + submitProposal(projectId: int, details: String): Proposal
+    + submitContribution(projectId: int, artifact: String): Contribution
+    + updateSkills(skill: String): void
+}
+
+class Project {
+    - id: int
+    - title: String
+    - description: String
+    - budget: float
+    - status: String
+    - requiredSkills: List<String>
+    + addSkill(skill: String): void
+    + receiveProposal(proposal: Proposal): void
+    + acceptProposal(proposalId: int): void
+}
+
+class Proposal {
+    - id: int
+    - details: String
+    - status: String
+    + updateStatus(status: String): void
+}
+
+class Contribution {
+    - id: int
+    - artifact: String
+    - type: String
+    - version: String
+    + submit(): void
+}
+
+' Classe d'association 
+class Contract {
+    - startDate: Date
+    - endDate: Date
+    - mission: String
+}
+
+' Messages échangés entre les clients et les freelances
+class ChatMessage {
+    - content: String
+    - timestamp: Date
+    - sender: User
+    + sendMessage(): void
+}
+
+' Interface pour les notifications
+interface Notifiable {
+    + notifyUser(message: String): void
+}
+
+' Relations et associations
+User <|-- Client
+User <|-- Freelancer
+Notifiable <|-- Client
+Notifiable <|-- Freelancer
+
+Client "1" o-- "*" Project : manager
+Project "1" --> "*" Proposal : receives
+Proposal "1" --> "1..*" Contribution : includes
+Freelancer "1" --> "*" Proposal : submitter
+Freelancer "1" --> "*" Contribution : contributor
+Project "1" --> "1" Contract : formalizedBy
+Client "1" --> "*" ChatMessage : exchanges
+Freelancer "1" --> "*" ChatMessage : exchanges
+
+' Composition 
+Project "1" *-- "1..*" Contribution : contains
+@enduml
