@@ -9,3 +9,7 @@ build/
 # Ignorer les fichiers système
 .DS_Store
 Thumbs.db
+
+SEG2505/
+SEG2505.git/
+
