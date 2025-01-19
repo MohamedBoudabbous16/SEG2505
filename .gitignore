@@ -1,1 +1,11 @@
-"**/google-services.json" 
+# Ignorer google-services.json
+**/google-services.json
+
+# Ignorer les dossiers générés par Android Studio
+.idea/
+.gradle/
+build/
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
